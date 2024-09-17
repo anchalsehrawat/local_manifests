@@ -21,5 +21,4 @@
 
   <!-- Play integrity fix and extras -->
   <project name="pjgowtham/android_vendor_extra" path="vendor/extra" />
-  <project name="luk1337/ih8sn" path="vendor/ih8sn" revision="master" />
 </manifest>
