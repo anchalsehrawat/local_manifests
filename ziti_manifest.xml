@@ -17,7 +17,8 @@
   <project name="pjgowtham/proprietary_vendor_oneplus_ziti" path="vendor/oneplus/ziti" revision="fourteen" remote="gitlab" />
   
   <!-- OnePlus Nord CE3 5G -->
-  <project name="pjgowtham/android_device_oneplus_ziti" path="device/oneplus/ziti" revision="lineage-21" />
+  <!-- project name="pjgowtham/android_device_oneplus_ziti" path="device/oneplus/ziti" revision="lineage-21" /-->
+  <project name="anchalsehrawat/android_device_oneplus_ziti" path="device/oneplus/ziti" revision="rising-14" />
 
   <!-- Play integrity fix and extras -->
   <project name="pjgowtham/android_vendor_extra" path="vendor/extra" />
