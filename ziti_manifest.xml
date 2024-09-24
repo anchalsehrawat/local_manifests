@@ -7,18 +7,18 @@
   <!--project name="pjgowtham/proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-21" remote="gitlab1" /-->
 
   <!-- SM8350 Kernel -->
-  <project name="pjgowtham/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="lineage-21" />
+  <project name="anchalsehrawat/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="lineage-21" />
   
   <!-- SM8350 Common device and vendor trees -->
   <project name="anchalsehrawat/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="lineage-21" />
-  <project name="pjgowtham/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="fourteen" remote="gitlab1" />
+  <project name="anchalsehrawat/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="fourteen" remote="gitlab1" />
   
   <!--Ziti Vendor-->
-  <project name="pjgowtham/proprietary_vendor_oneplus_ziti" path="vendor/oneplus/ziti" revision="fourteen" remote="gitlab1" />
+  <project name="anchalsehrawat/proprietary_vendor_oneplus_ziti" path="vendor/oneplus/ziti" revision="fourteen" remote="gitlab1" />
   
   <!-- OnePlus Nord CE3 5G -->
   <project name="anchalsehrawat/android_device_oneplus_ziti" path="device/oneplus/ziti" revision="rising-14" />
 
   <!-- Play integrity fix and extras -->
-  <project name="pjgowtham/android_vendor_extra" path="vendor/extra" />
+  <project name="anchalsehrawat/android_vendor_extra" path="vendor/extra" />
 </manifest>
