@@ -3,7 +3,7 @@
   <remote fetch="https://gitlab.com" name="gitlab1" />
 
   <!-- Common repositories that are universal for all oplus devices -->
-  <project name="anchalsehrawat/android_hardware_oplus" path="hardware/oplus" revision="lineage-21" />
+  <project name="anchalsehrawat/android_hardware_oplus" path="hardware/oplus" revision="rising-14" />
   <project name="anchalsehrawat/proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-21" remote="gitlab1" />
 
   <!-- SM8350 Kernel -->
