@@ -10,7 +10,7 @@
   <project name="anchalsehrawat/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="lineage-21" />
   
   <!-- SM8350 Common device and vendor trees -->
-  <project name="anchalsehrawat/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="lineage-21" />
+  <project name="anchalsehrawat/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="rising-14" />
   <project name="anchalsehrawat/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="fourteen" remote="gitlab1" />
   
   <!--Ziti Vendor-->
