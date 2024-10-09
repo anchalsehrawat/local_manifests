@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://gitlab.com" name="gitlab1" />
+  <remote fetch="https://github.com" name="github1" />
+
 
   <!-- Common repositories that are universal for all oplus devices -->
-  <project name="anchalsehrawat/android_hardware_oplus" path="hardware/oplus" revision="aosp-14" />
+  <project name="anchalsehrawat/android_hardware_oplus" path="hardware/oplus" revision="aosp-14" remote="github1" />
   <project name="anchalsehrawat/proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-21" remote="gitlab1" />
 
   <!-- SM8350 Kernel -->
-  <project name="anchalsehrawat/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="lineage-21" />
+  <project name="anchalsehrawat/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="lineage-21" remote="github1" />
   
   <!-- SM8350 Common device and vendor trees -->
-  <project name="anchalsehrawat/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="aosp-14" />
+  <project name="anchalsehrawat/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="aosp-14" remote="github1" />
   <project name="anchalsehrawat/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="fourteen" remote="gitlab1" />
   
   <!--Ziti Vendor-->
   <project name="anchalsehrawat/proprietary_vendor_oneplus_ziti" path="vendor/oneplus/ziti" revision="fourteen" remote="gitlab1" />
   
   <!-- OnePlus Nord CE3 5G -->
-  <project name="anchalsehrawat/android_device_oneplus_ziti" path="device/oneplus/ziti" revision="aosp-14" />
+  <project name="anchalsehrawat/android_device_oneplus_ziti" path="device/oneplus/ziti" revision="aosp-14" remote="github1" />
 
   <!-- Play integrity fix and extras -->
-  <project name="anchalsehrawat/android_vendor_extra" path="vendor/extra" />
+  <project name="anchalsehrawat/android_vendor_extra" path="vendor/extra" remote="github1" />
 </manifest>
