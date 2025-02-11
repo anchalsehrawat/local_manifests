@@ -4,43 +4,38 @@
   <remote fetch="https://github.com/anchalsehrawat/" name="ghub" />
 
   <!-- OnePlus Nord CE3 5G -->
-  <project name="android_device_oneplus_ziti" path="device/oneplus/ziti" revision="evox-15" remote="ghub" />
+  <project name="android_device_oneplus_ziti" path="device/oneplus/ziti" revision="rising-15" remote="ghub" />
  
   <!--Ziti Vendor-->
-  <project name="proprietary_vendor_oneplus_ziti" path="vendor/oneplus/ziti" revision="evox-15" remote="glab" /> 
+  <project name="proprietary_vendor_oneplus_ziti" path="vendor/oneplus/ziti" revision="rising-15" remote="glab" /> 
 
   <!-- SM8350 Common device tree -->
-  <project name="android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="evox-15" remote="ghub" />
+  <project name="android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="rising-15" remote="ghub" />
 
   <!-- SM8350-Common Vendor tree -->
-  <project name="proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="evox-15" remote="glab" />
+  <project name="proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="rising-15" remote="glab" />
   
   <!-- SM8350 Kernel -->
   <project name="android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="fourteen" remote="ghub" />
 
   <!-- Common repositories that are universal for all oplus devices -->
   <!-- Hardware Dependencies-->
-  <project name="android_hardware_oplus" path="hardware/oplus" revision="evox-15" remote="ghub" />  
+  <project name="android_hardware_oplus" path="hardware/oplus" revision="rising-15" remote="ghub" />  
   <!-- Oplus camera-->
   <project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-22.0" remote="glab" />
 
-  <!-- Viper4Android -->
-  <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="vic" remote="ghub" />
-
   <!-- Edited Repos to remove from Source --> 
-  <remove-project path="bootable/recovery" />
-  <remove-project path="system/core" />
-  <remove-project path="hardware/lineage/compat" />
-  <remove-project path="system/update_engine" />
-  <remove-project path="hardware/qcom-caf/sm8350/audio" />
-
-  <!-- From Evolution-X-->
-  <project path="bootable/recovery" name="evox_bootable_recovery" revision="vic" remote="ghub" />
-  <project path="system/core" name="evox_system_core" revision="vic" remote="ghub" />
+  <!-- remove-project path="hardware/lineage/compat" /-->
+  <!-- remove-project path="bootable/recovery" /-->
+  <!-- remove-project path="system/update_engine" /-->
+  <!-- remove-project path="system/core" /-->
 
   <!-- From LineageOS-->
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" revision="lineage-22.1" remote="ghub" />
-  <project path="system/update_engine" name="android_system_update_engine" revision="lineage-22.1" remote="ghub" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="lineage-22.1-caf-sm8350" remote="ghub" />
+  <!-- project path="hardware/lineage/compat" name="android_hardware_lineage_compat" revision="lineage-22.0" remote="ghub" /-->
+  
+  <!-- For Stock Flashable Recovery-->
+  <!-- project path="bootable/recovery" name="rising_android_bootable_recovery" revision="fifteen" remote="ghub" /-->
+  <!-- project path="system/update_engine" name="rising_android_system_update_engine" revision="fifteen" remote="ghub" /-->
+  <!-- project path="system/core" name="rising_android_system_core_new" revision="fifteen" remote="ghub" /-->
 
 </manifest>
