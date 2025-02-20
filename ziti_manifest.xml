@@ -40,7 +40,7 @@
   <!-- From Evolution-X-->
   <project path="bootable/recovery" name="evox_bootable_recovery" revision="vic" remote="ghub" />
   <project path="system/core" name="evox_system_core" revision="vic" remote="ghub" />
-  <!--project path="packages/apps/Updater" name="evox_packages_apps_Updater" remote="ghub"/-->
+  <!-- project path="packages/apps/Updater" name="evox_packages_apps_Updater" remote="ghub"/-->
   <!-- project path="evolution/OTA" name="Evox_OTA" remote="ghub" /-->
   <!-- project path="evolution/OTA-VANILLA" name="Evox_OTA" revision="vic-vanilla" remote="ghub" /-->  
 
