@@ -28,25 +28,25 @@
   <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="vic" remote="ghub" />
 
   <!-- Edited Repos to remove from Source --> 
-  <remove-project path="bootable/recovery" />
-  <remove-project path="system/core" />
-  <remove-project path="hardware/lineage/compat" />
-  <remove-project path="system/update_engine" />
-  <remove-project path="hardware/qcom-caf/sm8350/audio" />
+  <!-- remove-project path="bootable/recovery" /-->
+  <!-- remove-project path="system/core" /-->
+  <!-- remove-project path="hardware/lineage/compat" /-->
+  <!-- remove-project path="system/update_engine" /-->
+  <!-- remove-project path="hardware/qcom-caf/sm8350/audio" /-->
   <!-- remove-project path="packages/apps/Updater" /-->
   <!-- remove-project path="evolution/OTA" /-->
   <!-- remove-project path="evolution/OTA-VANILLA" /-->
 
   <!-- From Evolution-X-->
-  <project path="bootable/recovery" name="evox_bootable_recovery" revision="vic" remote="ghub" />
-  <project path="system/core" name="evox_system_core" revision="vic" remote="ghub" />
+  <!-- project path="bootable/recovery" name="evox_bootable_recovery" revision="vic" remote="ghub" /-->
+  <!-- project path="system/core" name="evox_system_core" revision="vic" remote="ghub" /-->
   <!-- project path="packages/apps/Updater" name="evox_packages_apps_Updater" remote="ghub"/-->
   <!-- project path="evolution/OTA" name="Evox_OTA" remote="ghub" /-->
   <!-- project path="evolution/OTA-VANILLA" name="Evox_OTA" revision="vic-vanilla" remote="ghub" /-->  
 
   <!-- From LineageOS-->
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" revision="lineage-22.1" remote="ghub" />
-  <project path="system/update_engine" name="android_system_update_engine" revision="lineage-22.1" remote="ghub" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="lineage-22.1-caf-sm8350" remote="ghub" />
+  <!-- project path="hardware/lineage/compat" name="android_hardware_lineage_compat" revision="lineage-22.1" remote="ghub" /-->
+  <!-- project path="system/update_engine" name="android_system_update_engine" revision="lineage-22.1" remote="ghub" /-->
+  <!-- project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="lineage-22.1-caf-sm8350" remote="ghub" /-->
 
 </manifest>
