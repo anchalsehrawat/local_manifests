@@ -25,7 +25,7 @@
   <project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-22.0" remote="glab" />
 
   <!-- Viper4Android -->
-  <project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="vic" remote="ghub" />
+  <!-- project name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="vic" remote="ghub" /-->
 
   <!-- Edited Repos to remove from Source --> 
   <!-- remove-project path="bootable/recovery" /-->
