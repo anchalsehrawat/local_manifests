@@ -22,7 +22,7 @@
   <!-- Hardware Dependencies-->
   <project name="android_hardware_oplus" path="hardware/oplus" revision="axion-test" remote="ghub" />  
   <!-- Oplus camera-->
-  <project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-22.0" remote="glab" />
+  <project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="axion-15" remote="glab" />
 
   <!-- Edited Repos to remove from Source --> 
   <!-- remove-project path="bootable/recovery" /-->
