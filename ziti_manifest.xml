@@ -2,7 +2,6 @@
 <manifest>
   <remote fetch="https://gitlab.com/anchalsehrawat/" name="glab" />
   <remote fetch="https://github.com/anchalsehrawat/" name="ghub" />
-  <remote fetch="https://gitlab.com/pjgowtham/" name="pj" />
 
   <!-- OnePlus Nord CE3 5G -->
   <project name="android_device_oneplus_ziti" path="device/oneplus/ziti" revision="evox-15" remote="ghub" />
