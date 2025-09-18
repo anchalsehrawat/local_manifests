@@ -20,7 +20,7 @@
 
   <!-- Common repositories that are universal for all oplus devices -->
   <!-- Hardware Dependencies-->
-  <project name="android_hardware_oplus" path="hardware/oplus" revision="yaap-test" remote="ghub" />  
+  <project name="android_hardware_oplus" path="hardware/oplus" revision="yaap-16" remote="ghub" />  
   <!-- Oplus camera-->
   <project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-22.0" remote="glab" />
 
