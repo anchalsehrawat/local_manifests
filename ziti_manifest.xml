@@ -20,7 +20,7 @@
 
   <!-- Common repositories that are universal for all oplus devices -->
   <!-- Hardware Dependencies-->
-  <project name="android_hardware_oplus" path="hardware/oplus" revision="evox-16" remote="ghub" />  
+  <project name="android_hardware_oplus" path="hardware/oplus" revision="evox-test" remote="ghub" />  
   <!-- Oplus camera-->
   <project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-22.0" remote="glab" />
 
