@@ -10,10 +10,10 @@
   <project name="proprietary_vendor_oneplus_ziti" path="vendor/oneplus/ziti" revision="axion-16.1" remote="glab" /> 
 
   <!-- SM8350 Common device tree -->
-  <project name="android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="axion-16.1" remote="ghub" />
+  <project name="android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="evox-16.1" remote="ghub" />
 
   <!-- SM8350-Common Vendor tree -->
-  <project name="proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="axion-16.1" remote="glab" />
+  <project name="proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="evox-qp1" remote="glab" />
   
   <!-- SM8350 Kernel -->
   <project name="android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="lineage-23.0" remote="ghub" />
@@ -22,6 +22,7 @@
   <!-- Hardware Dependencies-->
   <project name="android_hardware_oplus" path="hardware/oplus" revision="evox-16.1" remote="ghub" />  
   <!-- Oplus camera-->
-  <project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-22.0" remote="glab" />
+  <!-- project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-22.0" remote="glab" /-->
+  <project name="vendor_oneplus_dolby" path="vendor/oneplus/dolby" revision="main" remote="ghub" /> 
 
 </manifest>
