@@ -16,7 +16,7 @@
   <project name="proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="evox-qp1" remote="glab" />
   
   <!-- SM8350 Kernel -->
-  <project name="android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="lineage-23.0" remote="ghub" />
+  <project name="android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="16ksu" remote="ghub" />
 
   <!-- Common repositories that are universal for all oplus devices -->
   <!-- Hardware Dependencies-->
