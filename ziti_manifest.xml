@@ -5,7 +5,7 @@
   <remote fetch="https://gitlab.com/crdroidandroid/" name="glabcr" />
 
   <!-- OnePlus Nord CE3 5G -->
-  <project name="android_device_oneplus_ziti" path="device/oneplus/ziti" revision="evox-16.2" remote="ghub" />
+  <project name="android_device_oneplus_ziti" path="device/oneplus/ziti" revision="cr-16.2" remote="ghub" />
  
   <!--Ziti Vendor-->
   <project name="proprietary_vendor_oneplus_ziti" path="vendor/oneplus/ziti" revision="lineage-23.2" remote="glab" /> 
