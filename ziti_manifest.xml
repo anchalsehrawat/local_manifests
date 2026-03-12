@@ -22,7 +22,7 @@
 
   <!-- Common repositories that are universal for all oplus devices -->
   <!-- Hardware Dependencies-->
-  <project name="hardware_oplus" path="hardware/oplus" revision="sixteen-bkp" remote="mvghub" />  
+  <project name="hardware_oplus" path="hardware/oplus" revision="sixteen" remote="mvghub" />  
   <!-- Oplus camera -->
   <!-- project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-22.0" remote="glab" /-->
   <!-- OnePlus Dolby -->
