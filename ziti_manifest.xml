@@ -2,7 +2,6 @@
 <manifest>
   <remote fetch="https://gitlab.com/anchalsehrawat/" name="glab" />
   <remote fetch="https://github.com/anchalsehrawat/" name="ghub" />
-  <remote fetch="https://gitlab.com/crdroidandroid/" name="crlab" />
   <remote fetch="https://github.com/mvimal2607/" name="mvghub" />
 
   <!-- OnePlus Nord CE3 5G -->
@@ -26,7 +25,7 @@
   <!-- Oplus camera -->
   <!-- project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-22.0" remote="glab" /-->
   <!-- OnePlus Dolby -->
-  <project name="vendor_oneplus_dolby" path="vendor/oneplus/dolby" revision="main" remote="ghub" /> 
+  <project name="vendor_oneplus_dolby" path="vendor/oneplus/dolby" revision="main" remote="glab" /> 
   <!-- IR Remote -->
   <project name="proprietary_vendor_oneplus_ir" path="vendor/oneplus/ir" revision="16.0" remote="ghub" />
 
