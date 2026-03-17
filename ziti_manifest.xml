@@ -11,19 +11,19 @@
   <project name="proprietary_vendor_oneplus_ziti" path="vendor/oneplus/ziti" revision="lineage-23.2" remote="glab" /> 
 
   <!-- SM8350 Common device tree -->
-  <project name="android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="yaap-16.2" remote="ghub" />
+  <project name="android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="yaap-16.2-test" remote="ghub" />
 
   <!-- SM8350-Common Vendor tree -->
-  <project name="vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="sixteen" remote="mvghub" />
+  <project name="proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="lineage-23.2" remote="glab" />
   
   <!-- SM8350 Kernel -->
   <project name="android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="sixteen" remote="ghub" />
 
   <!-- Common repositories that are universal for all oplus devices -->
   <!-- Hardware Dependencies-->
-  <project name="android_hardware_oplus" path="hardware/oplus" revision="yaap-16.2" remote="ghub" />  
+  <project name="android_hardware_oplus" path="hardware/oplus" revision="yaap-16.2-test" remote="ghub" />  
   <!-- Oplus camera -->
-  <!-- project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-22.0" remote="glab" /-->
+  <project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-22.0" remote="glab" />
   <!-- OnePlus Dolby -->
   <project name="vendor_oneplus_dolby" path="vendor/oneplus/dolby" revision="main" remote="ghub" /> 
   <!-- IR Remote -->
