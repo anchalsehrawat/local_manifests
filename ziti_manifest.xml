@@ -25,8 +25,8 @@
   <!-- Oplus camera -->
   <!-- project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" revision="lineage-22.0" remote="glab" /-->
   <!-- OnePlus Dolby -->
-  <project name="vendor_oneplus_dolby" path="vendor/oneplus/dolby" revision="main" remote="glab" /> 
+  <project name="vendor_oneplus_dolby" path="vendor/oneplus/dolby" revision="main" remote="ghub" /> 
   <!-- IR Remote -->
-  <project name="proprietary_vendor_oneplus_ir" path="vendor/oneplus/ir" revision="16.0" remote="ghub" />
+  <project name="proprietary_vendor_oneplus_ir" path="vendor/oneplus/ir" revision="16.0" remote="glab" />
 
 </manifest>
