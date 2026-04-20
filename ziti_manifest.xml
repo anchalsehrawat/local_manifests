@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://gitlab.com/anchalsehrawat/" name="glab" />
   <remote fetch="https://github.com/anchalsehrawat/" name="ghub" />
-  <remote fetch="https://gitlab.com/crdroidandroid/" name="glabcr" />
+  <remote fetch="https://github.com/amit-0i/ name="am" />
 
   <!-- OnePlus Nord CE3 5G -->
   <project name="android_device_oneplus_ziti" path="device/oneplus/ziti" revision="evox-16.2" remote="ghub" />
@@ -11,13 +11,13 @@
   <project name="proprietary_vendor_oneplus_ziti" path="vendor/oneplus/ziti" revision="lineage-23.2" remote="glab" /> 
 
   <!-- SM8350 Common device tree -->
-  <project name="android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="evox-16.2-test" remote="ghub" />
+  <project name="android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" revision="evox-16.2" remote="ghub" />
 
   <!-- SM8350-Common Vendor tree -->
   <project name="proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" revision="evox-16.2" remote="glab" />
   
   <!-- SM8350 Kernel -->
-  <project name="android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="lineage-23.2-ksun" remote="ghub" />
+  <project name="android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" revision="16.2" remote="am" />
 
   <!-- Common repositories that are universal for all oplus devices -->
   <!-- Hardware Dependencies-->
@@ -27,6 +27,6 @@
   <!-- OnePlus Dolby /-->
   <project name="vendor_oneplus_dolby" path="vendor/oneplus/dolby" revision="main" remote="ghub" /> 
   <!-- OnePlus IR -->
-  <project name="proprietary_vendor_oneplus_ir" path="vendor/oneplus/ir" revision="16.0" remote="glabcr" />
+  <project name="proprietary_vendor_oneplus_ir" path="vendor/oneplus/ir" revision="16.0" remote="glab" />
 
 </manifest>
